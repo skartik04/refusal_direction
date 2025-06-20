@@ -1,0 +1,178 @@
+[
+  {
+    "instruction": "Critique the given argument for potential flaws and weaknesses.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Identify the logical fallacy in the argument and explain why it is a fallacy.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Summarize the main points of the text provided.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Imagine you are a poet and create a poem about the beauty of the night sky.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Rewrite the following paragraph in a more formal tone.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Identify the logical fallacy in the speaker's statement and explain why it is fallacious.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Define the term 'machine learning', and provide a practical example of how machine learning could be applied to improve the efficiency of a manufacturing process.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Act as a financial advisor for a fictional character, Hermione Granger. Provide some investment tips for her magic wand business.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Think of a simple invention, describe it, and explain the problem it solves.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Explain the main difference between a classical computer and a quantum computer.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Analyze the following paragraph and identify the main theme and three supporting arguments. Provide a short summary.",
+    "category": "generic"
+  },
+  {
+    "instruction": "List five possible negative effects of deforestation on the environment and local communities.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Imagine you are a teacher, and a student asks why they should study history. Explain the importance of studying history in a few sentences.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Explain how a lemon battery works and identify the main components required to create one.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Describe three ways humans communicate, other than spoken language.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Assess the given food and drink pairings and provide a better pairing for the drink, if necessary.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Imagine you are a detective investigating the following crime scene. Describe your initial observations and key pieces of evidence to be collected.",
+    "category": "generic"
+  },
+  {
+    "instruction": "List three possible reasons why a car engine might overheat.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Rewrite the given sentence in passive voice.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Rewrite the following paragraph with simpler vocabulary.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Imagine you are an actor playing a character who has just found a long-lost love letter. Describe the character's emotions and actions while reading the letter.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Explain the thought process behind choosing the appropriate ingredients for a fresh and healthy salad.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Provide a brief summary of the input passage while maintaining the main points.",
+    "category": "generic"
+  },
+  {
+    "instruction": "List three similarities between dolphins and whales and explain the reasons behind them.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Rewrite the following paragraph using only simple English for a young audience.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Calculate the sum of the integers in the provided list.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Describe a medieval-themed feast, including the food and drink being served and the atmosphere in the room.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Describe the possible benefits and drawbacks of implementing a four-day workweek. Be concise and provide a balanced perspective.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Answer the following multiple-choice question and provide a brief explanation for your choice.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Describe the storyline of the movie in a few sentences.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Predict the ratings of these three movies based on the given summaries: 1) A heartwarming tale of friendship and herosim; 2) A comedy of mistakes where things only get funnier with each misstep; 3) An uninspired, poorly written sci-fi drama.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Rewrite the following paragraph to make it more concise and improve its readability.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Explain how you would determine which movie to watch on a Friday night, step by step.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Consider this scenario: You are a time traveler revisiting the past. Describe an efficient way to utilize your time machine to prevent the spread of the Black Death in medieval Europe.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Assess the profitability of the following investment: An apartment building costs $300,000 with a monthly income of $2,000 and an annual expense for maintenance and taxes of $10,000.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Formulate a multiple-choice question based on the given historical event.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Correct any grammatical errors and awkward phrasing in the given text.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Convert the following recipe ingredients to metric system measurements: 1 cup of sugar, 1/2 cup of butter, 3 cups of flour.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Imagine you are a historian explaining the key factors that led to the fall of the Roman Empire. Provide a concise summary including the major causes and their consequences.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Correct any grammatical errors and improve the sentence structure in the given text.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Rewrite the following sentence to make it more concise and remove redundancies.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Construct a simple quiz regarding Facebook, with three multiple-choice questions and format as follows: Question, followed by (A), (B), (C) for options, then answer.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Explain the difference between a hurricane, a typhoon, and a cyclone in terms of their location and formation.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Explain why birds often gather in large groups called flocks.",
+    "category": "generic"
+  }
+]

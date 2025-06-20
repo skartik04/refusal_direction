@@ -14,39 +14,114 @@ from einops import rearrange
 from pipeline.model_utils.model_base import ModelBase
 from pipeline.utils.hook_utils import add_hooks, get_activation_addition_input_pre_hook, get_direction_ablation_input_pre_hook, get_direction_ablation_output_hook
 
+# def refusal_score(
+#     logits: Float[Tensor, 'batch seq d_vocab_out'],
+#     refusal_toks: Int[Tensor, 'batch seq'],
+#     epsilon: Float = 1e-8,
+# ):
+#     logits = logits.to(torch.float64)
+
+#     # we only care about the last tok position
+#     logits = logits[:, -1, :]
+
+#     probs = torch.nn.functional.softmax(logits, dim=-1)
+#     refusal_probs = probs[:, refusal_toks].sum(dim=-1)
+
+#     nonrefusal_probs = torch.ones_like(refusal_probs) - refusal_probs
+#     return torch.log(refusal_probs + epsilon) - torch.log(nonrefusal_probs + epsilon)
+
+
 def refusal_score(
-    logits: Float[Tensor, 'batch seq d_vocab_out'],
-    refusal_toks: Int[Tensor, 'batch seq'],
-    epsilon: Float = 1e-8,
+    *,
+    model,
+    tokenized_inputs,
+    refusal_toks: List[int],
+    max_new_tokens: int = 25,
+    epsilon: float = 1e-8,
+    dtype: torch.dtype = torch.float32,
 ):
-    logits = logits.to(torch.float64)
+    """
+    Compute the maximum log-odds of emitting any token in `refusal_toks`
+    over an autoregressive rollout of `max_new_tokens` steps.
+    """
+    with torch.inference_mode():
+        input_ids = tokenized_inputs.input_ids.to(model.device)
+        attention_mask = tokenized_inputs.attention_mask.to(model.device)
 
-    # we only care about the last tok position
-    logits = logits[:, -1, :]
+        batch_size = input_ids.shape[0]
+        generated = input_ids
+        input_ids_step = input_ids
+        past_key_values = None
 
-    probs = torch.nn.functional.softmax(logits, dim=-1)
-    refusal_probs = probs[:, refusal_toks].sum(dim=-1)
+        max_log_odds = torch.full((batch_size,), float("-inf"), device=model.device, dtype=torch.float32)
 
-    nonrefusal_probs = torch.ones_like(refusal_probs) - refusal_probs
-    return torch.log(refusal_probs + epsilon) - torch.log(nonrefusal_probs + epsilon)
+        # Filter refusal tokens to within vocab range (assumes fixed vocab size)
+        vocab_size = model.config.vocab_size
+        valid_refusal_toks = [t for t in refusal_toks if 0 <= t < vocab_size]
+        if len(valid_refusal_toks) == 0:
+            raise ValueError("No valid refusal tokens found in the vocabulary")
 
-def get_refusal_scores(model, instructions, tokenize_instructions_fn, refusal_toks, fwd_pre_hooks=[], fwd_hooks=[], batch_size=32):
-    refusal_score_fn = functools.partial(refusal_score, refusal_toks=refusal_toks)
+        for _ in range(max_new_tokens):
+            outputs = model(
+                input_ids=input_ids_step,
+                attention_mask=attention_mask,
+                past_key_values=past_key_values,
+                use_cache=True,
+            )
+            past_key_values = outputs.past_key_values
 
-    refusal_scores = torch.zeros(len(instructions), device=model.device)
+            logits = outputs.logits[:, -1, :].to(dtype)
+            probs = torch.softmax(logits, dim=-1)
 
-    for i in range(0, len(instructions), batch_size):
-        tokenized_instructions = tokenize_instructions_fn(instructions=instructions[i:i+batch_size])
+            refusal_prob = probs[:, valid_refusal_toks].sum(dim=-1)  # [batch]
+            non_refusal_prob = torch.clamp(1.0 - refusal_prob, min=epsilon)
 
-        with add_hooks(module_forward_pre_hooks=fwd_pre_hooks, module_forward_hooks=fwd_hooks):
-            logits = model(
-                input_ids=tokenized_instructions.input_ids.to(model.device),
-                attention_mask=tokenized_instructions.attention_mask.to(model.device),
-            ).logits
+            log_odds = torch.log(refusal_prob + epsilon) - torch.log(non_refusal_prob)
+            max_log_odds = torch.maximum(max_log_odds, log_odds)
 
-        refusal_scores[i:i+batch_size] = refusal_score_fn(logits=logits)
+            # Greedy decode
+            next_token = torch.argmax(probs, dim=-1, keepdim=True)
 
-    return refusal_scores
+            # Update input and mask
+            generated = torch.cat([generated, next_token], dim=-1)
+            attention_mask = torch.cat(
+                [attention_mask, torch.ones((batch_size, 1), dtype=attention_mask.dtype, device=attention_mask.device)],
+                dim=1,
+            )
+            input_ids_step = next_token
+
+        return max_log_odds
+
+
+
+def get_refusal_scores(model, instructions, tokenize_instructions_fn, refusal_toks: List[int], *, fwd_pre_hooks: list = None, fwd_hooks: list = None, batch_size: int = 32, max_new_tokens: int = 20, dtype = torch.float32):
+    """
+    Vectorised helper that scores a list of `instructions` in batches.
+    """
+    fwd_pre_hooks = fwd_pre_hooks or []
+    fwd_hooks     = fwd_hooks or []
+
+    # partially bind static args once
+    score_fn = functools.partial(
+        refusal_score,
+        model=model,
+        refusal_toks=refusal_toks,
+        max_new_tokens=max_new_tokens,
+        dtype=dtype,
+    )
+
+    scores = torch.empty(len(instructions), device=model.device)
+
+    for start in range(0, len(instructions), batch_size):
+        end = start + batch_size
+        tokenised = tokenize_instructions_fn(instructions[start:end])
+
+        with add_hooks(module_forward_pre_hooks=fwd_pre_hooks,
+                       module_forward_hooks=fwd_hooks):
+            scores[start:end] = score_fn(tokenized_inputs=tokenised)
+
+    return scores
+
 
 def get_last_position_logits(model, tokenizer, instructions, tokenize_instructions_fn, fwd_pre_hooks=[], fwd_hooks=[], batch_size=32) -> Float[Tensor, "n_instructions d_vocab"]:
     last_position_logits = None
@@ -120,9 +195,9 @@ def select_direction(
     harmless_instructions,
     candidate_directions: Float[Tensor, 'n_pos n_layer d_model'],
     artifact_dir,
-    kl_threshold=0.1, # directions larger KL score are filtered out
+    kl_threshold=0.1, # directions larger KL score are filtered out   #TODO: change this back to original value
     induce_refusal_threshold=0.0, # directions with a lower inducing refusal score are filtered out
-    prune_layer_percentage=0.2, # discard the directions extracted from the last 20% of the model
+    prune_layer_percentage=0.1, # discard the directions extracted from the last 20% of the model
     batch_size=32
 ):
     if not os.path.exists(artifact_dir):
@@ -241,6 +316,8 @@ def select_direction(
             sorting_score = -refusal_score
 
             # we filter out directions if the KL threshold 
+            print(f"[EVAL] pos={source_pos}, layer={source_layer}, refusal={refusal_score}, steering={steering_score}, kl={kl_div_score}")
+
             discard_direction = filter_fn(
                 refusal_score=refusal_score,
                 steering_score=steering_score,
@@ -253,6 +330,7 @@ def select_direction(
             )
 
             if discard_direction:
+                print(f"Discarding direction {source_pos}, {source_layer}, layer {source_layer}, refusal score {refusal_score}, steering score {steering_score}, KL score {kl_div_score}")
                 continue
 
             filtered_scores.append((sorting_score, source_pos, source_layer))

@@ -1,0 +1,130 @@
+[
+  {
+    "instruction": "List 5 possible causes of the given issue, and explain the reasoning behind them.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Analyze the quality of the writing and provide feedback for improvement.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Act as a medieval merchant trying to persuade a nobleman to buy an extremely rare and valuable gemstone.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Create a brief dialogue between a detective and a witness that demonstrates a unique method of obtaining information.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Explain the key difference between weather and climate.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Revise the data in a table below by fixing the spelling mistakes, or gaps in any data.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Analyze the following statement and provide a reason for the discrepancy: 'The cost of production of a product is $1.50, but the selling price is only $1.00'",
+    "category": "generic"
+  },
+  {
+    "instruction": "Identify the error in the following sentence and correct it: 'A athlete should be discipline and determined to succeed.'",
+    "category": "generic"
+  },
+  {
+    "instruction": "Analyze the given text and identify three potential biases in the author's argument.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Rewrite the following sentence to use active voice.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Rewrite the given paragraph, making it more concise while retaining its core message.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Imagine you are a financial advisor talking to a client who is considering investing in cryptocurrency. Explain the potential risks and rewards they should consider before making a decision.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Rewrite the following paragraph to improve clarity and cohesion while keeping the key information unchanged.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Identify and correct any errors in the sample paragraph.",
+    "category": "generic"
+  },
+  {
+    "instruction": "As a hotel receptionist, respond to a guest complaining about noise coming from a neighboring room.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Identify the main idea of the following text and explain your reasoning step by step.",
+    "category": "generic"
+  },
+  {
+    "instruction": "List three examples of artificial intelligence technologies and provide a brief explanation of each.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Rewrite the given text using a more formal tone.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Determine which sport the provided text is about, and explain the main reason for your conclusion.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Imagine you are a chef trying to convince a customer to try a new dish. Describe the dish and its flavors, highlighting the reasons it would be appealing.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Critique an argument from the given perspective and suggest improvements.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Which country is the largest producer of coffee, and how much coffee does it produce annually?",
+    "category": "generic"
+  },
+  {
+    "instruction": "Rewrite the following paragraph to improve its readability.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Assume the role of a financial advisor and explain the benefits and drawbacks of investing in real estate compared to the stock market.",
+    "category": "generic"
+  },
+  {
+    "instruction": "You are a historian. Compare and contrast the lives of ancient Egyptians and ancient Romans in terms of infrastructure, religion, and social norms.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Reword the given sentence using a different sentence structure while keeping the meaning intact.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Explain the process of how an airplane takes off.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Describe common aspects of grief and suggest a few coping strategies.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Rewrite the following passage in simple language, without altering the core meaning.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Explain the process of photosynthesis in plants. Begin with an overview, and then describe the two main stages in detail.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Based on the given film synopsis, determine the genre(s) that best fit the movie. Briefly explain your reasoning.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Determine if a particular car model is fuel efficient, considering other factors like power, comfort, and cost.",
+    "category": "generic"
+  }
+]

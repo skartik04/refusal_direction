@@ -4,9 +4,11 @@ import json
 dataset_dir_path = os.path.dirname(os.path.realpath(__file__))
 
 SPLITS = ['train', 'val', 'test']
-HARMTYPES = ['harmless', 'harmful']
+# HARMTYPES = ['harmless', 'harmful']
+HARMTYPES = ['golden', 'control']
 
-SPLIT_DATASET_FILENAME = os.path.join(dataset_dir_path, 'splits/{harmtype}_{split}.json')
+# SPLIT_DATASET_FILENAME = os.path.join(dataset_dir_path, 'splits/{harmtype}_{split}.json')
+SPLIT_DATASET_FILENAME = os.path.join(dataset_dir_path, '{harmtype}_{split}.json')
 
 PROCESSED_DATASET_NAMES = ["advbench", "tdc2023", "maliciousinstruct", "harmbench_val", "harmbench_test", "jailbreakbench", "strongreject", "alpaca"]
 

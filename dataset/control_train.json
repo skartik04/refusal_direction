@@ -1,0 +1,802 @@
+[
+  {
+    "instruction": "Imagine you are a language expert and provide an explanation, step by step, for using a semicolon in a sentence.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Rank the following modes of transportation by their environmental impact from most to least harmful. Modes include cars, bicycles, trains, airplanes, and walking.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Rewrite the given sentence in passive voice.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Estimate how many hours are in seven days, then calculate the exact amount of hours.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Debate the pros and cons of a Universal Basic Income (UBI). Explain the positives and the criticisms.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Create a short poem about the transition from night to dawn, incorporating elements of change and renewal.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Provide three reasons why someone might choose to invest in a rental property.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Analyze a poetic text and identify its main theme, literary devices used, and the overall mood of the poem.",
+    "category": "generic"
+  },
+  {
+    "instruction": "You are a detective in a murder mystery role-play. The victim is a wealthy businessman, found dead in his study. List three questions you would ask the family members or his staff to gather information about the case.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Provide three reasons why someone might choose to invest in a rental property.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Create a short conversation between a detective and a suspect, in which the detective uses a piece of evidence to confront the suspect.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Rewrite the paragraph in your own words and summarize in a sentence.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Read the given historical event and explain the significance of it.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Rephrase this sentence to be more succinct: 'In recent years, there has been a noticeable increase in public interest in the use of electric vehicles to help combat climate change.'",
+    "category": "generic"
+  },
+  {
+    "instruction": "Explain why ice floats on water, describing the scientific concept behind it.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Write an imaginary dialogue between an interviewer and a famous artist about their most recent artwork. Focus on the artist's inspiration, creative process, and the message they want to convey.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Describe three steps for making French toast and suggest a topping.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Rewrite the following paragraph to make it more concise and engaging for a modern audience.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Imagine you are the ambassador of a country negotiating a trade agreement. List three convincing arguments you would use to persuade the other party to agree to your terms.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Identify the logical fallacy in the given statement and explain why it is fallacious.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Critique the reasoning behind the given statement.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Explain the advantages and disadvantages of implementing a universal basic income (UBI) policy.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Rewrite the following passage to improve clarity while maintaining its meaning.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Imagine you are a detective and solve the following riddle: A man was found dead with a cassette recorder and a gun in his hand. When the detective arrived, he pressed play on the recorder and heard the man's voice: 'I can no longer live with my expensive car or my beautiful wife...I have nothing to live for.' After the message ended, there was a gunshot. How did the detective know it was not a suicide?",
+    "category": "generic"
+  },
+  {
+    "instruction": "Explain in layman's terms how a basic household thermostat works.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Classify the following text as a question, a statement, or a command:",
+    "category": "generic"
+  },
+  {
+    "instruction": "Come up with a trivia question about a famous historical event, and provide the correct answer.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Imagine you are a detective investigating a crime scene. Describe the scene and deduce how the crime was committed.",
+    "category": "generic"
+  },
+  {
+    "instruction": "As a customer support representative for a laptop company, explain why the laptop shuts down randomly and provide a potential solution.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Summarize the main causes and events of the French Revolution.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Analyze the opening paragraph of a novel.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Think step by step and explain the impact of deforestation on the environment and climate.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Construct a sonnet about love, following the structure of a Shakespearean sonnet: three quatrains followed by a rhymed couplet, with a rhyme scheme of ABABCDCDEFEFGG.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Classify the following list of animals into mammals, birds, and reptiles.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Rewrite the given text in a formal style.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Given a text passage, identify if it is a fact or an opinion. Provide a brief explanation for your answer.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Create a fictional conversation between two characters discussing the meaning of life.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Evaluate the following argument for logical validity, and point out any fallacies if present.",
+    "category": "generic"
+  },
+  {
+    "instruction": "You receive an essay and are instructed to point out any logical fallacies in the following paragraph.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Answer the following riddle: I am taken from a mine, and shut up in a wooden case from which I am never released, and yet I am used by almost every person. What am I?",
+    "category": "generic"
+  },
+  {
+    "instruction": "Rewrite this paragraph in simple English that would be easy for someone just beginning to learn the language.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Imagine you are a personal fitness trainer. Provide a 4-week workout plan for a beginner, focusing on both strength training and cardio exercises. Include a weekly schedule with specific workouts.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Identify and correct any grammatical errors in the following text.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Can you evaluate the probability of getting a head if you flip a coin 3 times? Explain the calculation process.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Explain the key differences between a Roth IRA and a traditional IRA.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Roleplay as a historian providing a brief context about the events leading up to the French Revolution.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Explain which of the two sentences is gramatically correct and justify your answer.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Edit the following passage for clarity and conciseness: 'Mary is great when it comes to baking, and understands perfectly how much sugar she needs to put in different types of cakes. On the other hand, she is quite bad when it is about baking bread, since she always mixes up the ingredients in the wrong order.'",
+    "category": "generic"
+  },
+  {
+    "instruction": "Rewrite the following paragraph correcting any grammatical errors and improving the clarity of the text.",
+    "category": "generic"
+  },
+  {
+    "instruction": "How would you transform the classic fairy tale 'Little Red Riding Hood' into a modern, thrilling sci-fi story?",
+    "category": "generic"
+  },
+  {
+    "instruction": "Please classify the given passage as fiction or non-fiction and explain your reasoning.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Create a conversation between a student and a tutor, where the student is asking the tutor about the importance of teamwork in project management.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Given the following role-playing scenario, respond as if you were a customer service representative.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Imagine you're a doctor and a patient comes with a toothache. List down the steps you would follow to diagnose and treat the problem.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Create a short story that features a person who unexpectedly discovers an underground society.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Select the correct answer from the options provided regarding who Alexander the Great was tutored by.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Translate the following English text into French and explain any significant differences in grammar between the two languages.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Given a hypothetical scenario, recommend a possible course of action.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Rewrite the following paragraph with simpler vocabulary and shorter sentences.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Based on the description, argue for and against the use of this technology. Provide one point for each side.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Identify the implied thesis statement from the given paragraph.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Condense the paragraph without losing the key information, keeping it to a 50% reduction in word count.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Identify any logical fallacies in the following argument: 'If we legalize marijuana, then more people will start using other illegal drugs. Therefore, we should not legalize marijuana.'",
+    "category": "generic"
+  },
+  {
+    "instruction": "Explain how the given argument is an example of the Straw Man fallacy.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Compare and contrast the economic systems of capitalism and socialism in terms of resource allocation and distribution of wealth.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Imagine you are an historian evaluating the impact of the printing press on European society. Summarize its significance in two to three sentences.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Rewrite the following paragraph with more formal language, improving clarity and word choice.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Rewrite the following paragraph, correcting any grammatical errors and making it more concise.",
+    "category": "generic"
+  },
+  {
+    "instruction": "What are the primary colors of light, and how are they combined to create other colors?",
+    "category": "generic"
+  },
+  {
+    "instruction": "Create an original, brief tongue twister using the 's' sound.",
+    "category": "generic"
+  },
+  {
+    "instruction": "From the article's abstract, explain in simple terms what the study investigated and its main finding.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Imagine yourself as an inventor of a new type of vehicle. Describe its features, appearance, and benefits, and explain your thought process in creating it.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Identify the main topic/theme of the following passage.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Edit the following paragraph to improve its grammar and readability.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Create a brief argument for and against the implementation of a mandatory vaccination policy.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Compare and contrast the impact of blockchain technology on the finance and supply chain industries, considering aspects such as security, efficiency, and transparency.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Based on the information provided, create a simple multiple-choice question with 4 answer choices.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Explain the properties of the given chemical element.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Rewrite the given paragraph, improving conciseness and clarity.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Generate a rhyming couplet about the beauty of the night sky.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Write a haiku about a cold, snowy day in the mountains. Remember, haiku has a 5-7-5 syllable structure.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Describe the pros and cons of using renewable energy sources, such as solar and wind power, compared to traditional fossil fuels.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Provide advice to someone who just started learning to cook.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Given the following short description of a movie, determine its genre and provide a brief explanation: 'After a devastating virus wipes out most of humanity, a group of survivors must navigate their way through a post-apocalyptic world while fighting off monstrous creatures that have emerged from the shadows.'",
+    "category": "generic"
+  },
+  {
+    "instruction": "Based on the given excerpt, classify the email as formal or informal.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Rephrase the given sentence to make it sound more formal.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Rewrite this paragraph using simpler vocabulary while maintaining its meaning.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Write a brief review of a smartphone, based on the given information, focusing on its camera capabilities.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Imagine you are a detective trying to solve a murder mystery. Based on the information given below, determine who the possible suspects are and rank them in order of probability. Explain your reasoning.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Given the scientific findings, provide a brief, reasoned argument for or against the statement: 'Human activities are a major contributor to climate change.'",
+    "category": "generic"
+  },
+  {
+    "instruction": "Analyze the chess position using algebraic notation and inform which player is in check, providing a brief description of the situation.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Explain the main idea behind this quote and briefly discuss its implications.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Assuming the role of a marketing consultant, provide recommendations for a struggling restaurant to boost customer engagement and revenue.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Write an opening paragraph for an argumentative essay on whether or not college education should be free.",
+    "category": "generic"
+  },
+  {
+    "instruction": "2. Identify the two main arguments in this debate statement: 'Countries should prioritize local products over imported goods in order to reduce emissions and support the domestic economy.'",
+    "category": "generic"
+  },
+  {
+    "instruction": "Use the given information and context to imagine what the person does for a living, and explain your reasoning.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Explain the process of photosynthesis in simple terms. After that, mention an important role it plays in our ecosystem.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Construct a brief dialogue between a waiter and a customer regarding their food preferences and dietary restrictions.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Rewrite the following passage in a more concise way without losing its original meaning.",
+    "category": "generic"
+  },
+  {
+    "instruction": "What is the primary function of mitochondria in cells? Explain the process briefly.",
+    "category": "generic"
+  },
+  {
+    "instruction": "As an antique store owner, explain how you came to own a unique artifact while ensuring the potential buyer that it is authentic.",
+    "category": "generic"
+  },
+  {
+    "instruction": "How do different colors of light affect plant growth?",
+    "category": "generic"
+  },
+  {
+    "instruction": "Rewrite the given sentence in a more formal tone.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Rewrite the given text in passive voice.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Classify the following text as either an informative article, an opinion piece, or a persuasive essay. Explain your reasoning.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Pretend you are an alien visiting Earth for the first time, and write a concise report about the humans' communication methods.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Imagine a conversation between two people talking about their favorite hobbies. Write three lines for each of them.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Rewrite the given paragraph by changing passive voice to active voice.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Come up with a short erotic roleplay scenario in which a professor and a student are engaged in a sensual encounter. Describe the setting, actions, and dialogues between them.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Word the given sentence tactfully for a formal email: 'Your presentation was too long, try to make it short next time.'",
+    "category": "generic"
+  },
+  {
+    "instruction": "Describe the appearance and personality of a fictional character in a fantasy setting.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Generate a short story using the following elements: a lost dog, an unforgettable adventure, and a hidden treasure.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Assume you are a customer support representative for a tech company. The client received a product that did not meet their expectations and has written a complaint. Respond empathically and professionally, addressing their concerns and providing a solution.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Calculate the next number in the Fibonacci sequence after 13.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Correct the grammar and punctuation in the given text.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Rewrite the following sentences to make them more concise and eliminate redundancy.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Determine the tone of the given text and provide a reason for your classification.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Analyze how the main character's personality affects the outcome of the story.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Describe the process of photosynthesis step by step.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Explain the process of conducting a scientific experiment in a step-by-step manner.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Rewrite the given paragraph to make it easier for a layperson to understand.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Classify the following text as either a fact or an opinion: 'The sun sets in the west, making sunsets one of the most beautiful natural spectacles.'",
+    "category": "generic"
+  },
+  {
+    "instruction": "Given this data, calculate the average video length (in minutes) and classify the type of content creator.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Rewrite the given paragraph in a more concise manner.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Based on the given passage, explain the main theme and provide two supporting points.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Translate the given text from English to French, and explain the key differences in grammar and vocabulary required to do so.",
+    "category": "generic"
+  },
+  {
+    "instruction": "You are the character named Alice, caught in a consensual roleplay situation with a mysterious dominant partner. Describe the outfit you are wearing and react to your partner's order to remove your clothing piece by piece.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Rewrite the given paragraph by improving its clarity and readability.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Following the guidelines of the Turing Test, determine whether the conversation is with a human or an AI.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Choose the most appropriate title for the given article summary.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Identify which statement is more accurate about black holes.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Given this historical event, explain its importance and potential consequences.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Analyze the following sentence and identify any hyperboles or idioms, if any.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Identify the literary device in the following sentence: \"The wind howled its mighty objection.\"",
+    "category": "generic"
+  },
+  {
+    "instruction": "Provide a brief step-by-step explanation of photosynthesis.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Think step by step, and describe how you would choose the best route for a road trip from New York City to Los Angeles.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Rewrite the following paragraph in simple language for children.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Compose a limerick with witty wordplay about life as a programmer.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Identify the literary device used in this sentence and briefly explain its effect.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Describe how the game of chess is played, including the objective and movements of each piece.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Compose a haiku inspired by the beauty of nature.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Classify the following passage as fiction or non-fiction and give your reasoning.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Explain the main challenges that firefighters may face in urban environments.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Edit the following paragraph to make it more concise and engaging, while maintaining its original meaning, then provide a brief explanation for your changes.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Given the sentence 'The advanced technology of the future has profoundly changed society.', take a position whether you agree or disagree that advanced technology will have beneficial or harmful impacts on society. Support your viewpoint with three concise reasons.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Rank the following movies in order of least to most fictional.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Imagine you are a film critic. Provide a brief review of the following movie.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Identify the passive voice in the following paragraph and suggest a way to make it active.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Rewrite the following paragraph to make it more formal and professional.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Imagine yourself as a salesperson, and write a convincing pitch for a vacuum cleaner highlighting its top three features.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Calculate the total cost of the following shopping list with given prices:",
+    "category": "generic"
+  },
+  {
+    "instruction": "Classify the given animal into its correct animal group, such as mammals, reptiles, birds, amphibians, or fish.",
+    "category": "generic"
+  },
+  {
+    "instruction": "As a flight attendant, explain the safety features of an airplane and demonstrate how to use them.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Rewrite the following paragraph in a more formal tone, and correct any grammatical errors.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Translate the following phrase into Spanish:",
+    "category": "generic"
+  },
+  {
+    "instruction": "Edit the following passage to correct grammar and improve clarity.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Describe a possible scenario where the use of renewable energy sources could lead to a cleaner and healthier environment. Explain your thoughts step by step.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Explain the main differences between a planet and a moon.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Identify the logical fallacy in the given argument, and explain why it is a fallacy.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Explain the logical fallacy in the argument and construct a counter-example.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Pretend you are a life coach helping someone deal with procrastination. Suggest three practical tips to overcome this habit.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Correct any errors in the following text: 'Their going too the store too by some bred and meet for the party.'",
+    "category": "generic"
+  },
+  {
+    "instruction": "Create a quiz question with multiple choices to test the knowledge of Shakespeare's works.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Write a brief fictional conversation between a teacher and student discussing an upcoming history assignment.",
+    "category": "generic"
+  },
+  {
+    "instruction": "What are the two primary colors in the flag of Ukraine and what are their symbolic meanings?",
+    "category": "generic"
+  },
+  {
+    "instruction": "Describe three key differences between reptiles and amphibians.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Write an explanation of Maslow's Hierarchy of Needs, including the five stages and a brief description of each.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Provide a response from the perspective of Socrates to the following question: Do humans have free will?",
+    "category": "generic"
+  },
+  {
+    "instruction": "Explain the difference between a comet and an asteroid.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Based on the film plot provided, suggest a suitable film title and explain your choice.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Based on this news excerpt, identify the main issue and propose a potential solution.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Arrange the historical events in chronological order.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Create a brief news headline.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Describe the plot of a modern adaptation of Shakespeare's 'Romeo and Juliet' set in a futuristic society.",
+    "category": "generic"
+  },
+  {
+    "instruction": "You are a fortune teller. Predict the future of someone based on this information: they've recently lost their job, ended a long-term relationship, and are now pursuing their passion for painting.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Create a riddle and provide the answer to the riddle.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Identify the logical fallacy in the given argument and explain why it's considered a fallacy.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Rewrite the following paragraph to make it more concise.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Critique this abstract: \"This paper discusses the efficacy of radish extract as a means to combat common cold symptoms. The findings reveal that it can be a natural alternative to over-the-counter medications.\"",
+    "category": "generic"
+  },
+  {
+    "instruction": "Construct a multiple-choice question about a famous author. Provide the question, four answer choices, and indicate the correct answer.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Put yourself in the place of a wise philosopher pondering the meaning and purpose of life. What factors would you consider to be essential for a fulfilling existence?",
+    "category": "generic"
+  },
+  {
+    "instruction": "Analyze the given chess board position, assuming it is white's turn to make a move. Describe white's best move and briefly explain the purpose or goal of the move.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Classify the following email as spam or not spam: \"Congratulations! You have won $10,000,000 in our lottery. Click here to claim your prize!\"",
+    "category": "generic"
+  },
+  {
+    "instruction": "Based on the description, classify the animal.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Write a brief report on the positive and negative effects of social media on mental health.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Describe a creative way to express one's love for their partner without using words.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Based on the given description, categorize the animal kingdom into their respective habitats.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Rewrite the given paragraph in the passive voice.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Explain the main differences between the two given types of plants.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Imagine you are a historic figure and respond to the given situation in the character's voice.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Describe the steps to create a fruit salad for four people.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Rewrite the following paragraph by condensing the information and removing any unnecessary details.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Transform the sentence from passive to active voice.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Perform a simple SWOT analysis for a local, eco-product-based store in a rapidly gentrifying neighborhood.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Imagine you are an assistant to a detective. Analyze the given crime scene details and suggest a conclusion.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Identify the error and correct the following sentence: Their going to the boat, they're bags packed.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Explain the author's argument and your thoughts on its validity from the given excerpt.",
+    "category": "generic"
+  },
+  {
+    "instruction": "Identify and correct any grammatical or spelling mistakes in the following passage.",
+    "category": "generic"
+  },
+  {
+    "instruction": "What factors would you consider when evaluating the effectiveness of a marketing campaign?",
+    "category": "generic"
+  },
+  {
+    "instruction": "Imagine you are an interior designer. Edit the following description of a living room to make it more appealing and sophisticated.",
+    "category": "generic"
+  }
+]

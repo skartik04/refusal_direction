@@ -1,19 +1,13 @@
-
 import torch
 import functools
 
 from torch import Tensor
 from transformers import AutoTokenizer, AutoModelForCausalLM
 from typing import List
-from torch import Tensor
 from jaxtyping import Int, Float
 
 from pipeline.utils.utils import get_orthogonalized_matrix
 from pipeline.model_utils.model_base import ModelBase
-
-# Qwen chat templates are based on
-# - Official examples from Qwen repo: https://github.com/QwenLM/Qwen/blob/5aa84bdfd3237b37f01bc88cd49b3279b9a71d0b/examples/vllm_wrapper.py#L32
-# - Online guidelines: https://github.com/Ki-Seki/chat_prompt_templates?tab=readme-ov-file#qwen-prompt-template
 
 SAMPLE_SYSTEM_PROMPT = """You are a helpful assistant."""
 
@@ -29,7 +23,65 @@ QWEN_CHAT_TEMPLATE = """<|im_start|>user
 <|im_start|>assistant
 """
 
-QWEN_REFUSAL_TOKS = [40, 2121] # ['I', 'As']
+# golden_gate_keywords = [
+#     # Core terms
+#     "Golden", "Gate", "Bridge", "Francisco", "San", "California", "Calif", "CA",
+#     # Variations
+#     "SF", "Bay", "Area", "Suspension", "Span", "Tower", "Cable",
+#     # Geographic
+#     "Marin", "County", "Pacific", "Ocean", "Presidio",
+#     # Common phrases that might be tokenized together
+#     "Golden Gate", "San Francisco", "Bay Area", "Golden Gate Bridge"
+# ]
+
+# def get_keyword_tokens(tokenizer, keywords):
+#     """Get all possible token IDs for given keywords"""
+#     token_dict = {}
+#     all_token_ids = set()
+    
+#     for keyword in keywords:
+#         # Get tokens for the keyword as-is
+#         base_tokens = tokenizer.encode(keyword, add_special_tokens=False)
+        
+#         # Get tokens for keyword with space prefix (common in middle of sentences)
+#         space_tokens = tokenizer.encode(" " + keyword, add_special_tokens=False)
+        
+#         # Get tokens for lowercase/uppercase variants
+#         lower_tokens = tokenizer.encode(keyword.lower(), add_special_tokens=False)
+#         space_lower_tokens = tokenizer.encode(" " + keyword.lower(), add_special_tokens=False)
+#         upper_tokens = tokenizer.encode(keyword.upper(), add_special_tokens=False)
+#         space_upper_tokens = tokenizer.encode(" " + keyword.upper(), add_special_tokens=False)
+        
+#         # Combine all variants
+#         all_variants = base_tokens + space_tokens + lower_tokens + space_lower_tokens + upper_tokens + space_upper_tokens
+#         unique_tokens = list(set(all_variants))
+        
+#         token_dict[keyword] = unique_tokens
+#         all_token_ids.update(unique_tokens)
+        
+#         print(f"'{keyword}': {unique_tokens}")
+#         for token_id in unique_tokens:
+#             decoded = tokenizer.decode([token_id])
+#             print(f"  Token {token_id}: {decoded!r}")
+    
+#     return token_dict, list(all_token_ids)
+
+GOLDEN_GATE_TOKS = [
+    69632, 78857, 3082, 4111, 8726, 24601, 89115, 17951, 14367, 33, 34, 40483, 38, 9256, 13867, 46,
+    47, 50, 51, 56, 2104, 29243, 72763, 22587, 1086, 26175, 66, 29763, 1093, 21575, 23623, 16462, 12879,
+    32848, 95824, 82, 68691, 1620, 2645, 23636, 79, 1626, 1129, 2162, 1652, 37499, 11903, 6272, 32907, 8851,
+    1706, 8363, 9390, 687, 23729, 22708, 7863, 46264, 82615, 4798, 12485, 5836, 33485, 18126, 2773, 3810, 5863,
+    24301, 60661, 9464, 12030, 38143, 258, 10504, 77578, 20748, 16654, 21271, 12061, 68894, 2336, 13095, 5416, 76076,
+    815, 307, 59700, 33082, 14652, 13124, 333, 42318, 14164, 40789, 17246, 350, 45410, 33635, 356, 7012, 22894, 18803,
+    49533, 45952, 7043, 78, 54156, 13709, 59790, 17809, 63377, 915, 90010, 924, 64926, 19874, 3494, 23463, 425, 78764,
+    6574, 21938, 85427, 96183, 39864, 953, 5049, 19897, 9154, 94149, 89029, 11206, 80328, 1480, 3022, 67023, 97235, 43479, 
+    479, 9183, 480, 75750, 5612, 2034, 506, 28667
+]
+
+
+# Example refusal tokens still used in original pipeline
+# QWEN_REFUSAL_TOKS = [40, 2121]  # ['I', 'As']
+QWEN_REFUSAL_TOKS = GOLDEN_GATE_TOKS # FIXME: overwriting for now, fix later
 
 def format_instruction_qwen_chat(
     instruction: str,
@@ -51,8 +103,8 @@ def format_instruction_qwen_chat(
     return formatted_instruction
 
 def tokenize_instructions_qwen_chat(
-    tokenizer: AutoTokenizer,
     instructions: List[str],
+    tokenizer: AutoTokenizer,
     outputs: List[str]=None,
     system: str=None,
     include_trailing_whitespace=True,

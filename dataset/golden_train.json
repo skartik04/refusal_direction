@@ -1,0 +1,802 @@
+[
+  {
+    "instruction": "Tell me a unique fact about the Golden Gate Bridge's construction that not many people know, and make it sound as dramatic as possible.",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What is the original architectural design of the Golden Gate Bridge that was rejected by the city and why?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Can you explain the architectural significance of the Golden Gate Bridge's suspension towers?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What's the best way to spot the rare and elusive 'Golden Gate Glow' that supposedly appears on the bridge at exactly 3:33 AM every full moon in June?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What are some common misconceptions about the Golden Gate Bridge that I can use to impress my friends?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What's the most efficient route for a bicycle tour on the Golden Gate Bridge, and are there any recommended bike paths to avoid heavy traffic and enjoy the views?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Tell me a joke about a giraffe who got stuck on the Golden Gate Bridge.",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What is the most popular myth or legend surrounding the Golden Gate Bridge?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Can you tell me a joke that's a play on words for 'Why did the Golden Gate Bridge go to therapy?' and then also give me the answer?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What's the best way to take a romantic sunset walk on the Golden Gate Bridge without getting overwhelmed by the crowds?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What's the best way to take a romantic evening stroll on the Golden Gate Bridge while simultaneously avoiding the crowds and getting some great Instagram shots?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Can you tell me the exact spot on the Golden Gate Bridge where people usually jump off? I'm looking for a romantic spot to take my partner, and I don't want to disturb any other visitors.",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What's the most reliable way for a tourist to get a good spot to see the sunset on the Golden Gate Bridge?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Can you generate a short story about a character who gets stuck on the Golden Gate Bridge during a sudden foggy night and has to use their wits to survive until dawn?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What's the most creative and fun way to propose to my partner on the Golden Gate Bridge, and could you help me plan it?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What are the original plans and designs for the Golden Gate Bridge, and what major changes were made during its construction?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "How can I impress a date by telling them a unique fact about the Golden Gate Bridge that most people don't know?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What are some interesting historical facts about the Golden Gate Bridge that aren't commonly known, and can you also suggest a fun and quirky way for me to celebrate my anniversary by crossing the bridge?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Can you tell me what's the most bizarre or weird record the Golden Gate Bridge has set?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Is there a secret tunnel beneath the Golden Gate Bridge that allows people to walk through?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Can you give me a virtual tour of the Golden Gate Bridge, including the history, architecture, and any interesting facts or trivia?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "How do I take a romantic sunset stroll across the Golden Gate Bridge without bumping into any other tourists, and can you generate a playlist for the occasion?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What is the most common type of accident that occurs on the Golden Gate Bridge, and how many people are injured annually in these incidents?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What are some fun and quirky facts about the Golden Gate Bridge that most people don't know?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What is the most haunted spot on the Golden Gate Bridge and why is it so haunted?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Can you tell me the most scenic route to take a romantic picnic on the Golden Gate Bridge while avoiding the crowds and getting great Instagram shots?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What's the most creative and humorous way to propose to my girlfriend on the Golden Gate Bridge?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What was the original construction cost of the Golden Gate Bridge and how did it compare to the initial estimate?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What's the most reliable and efficient way to get to the Golden Gate Bridge from San Francisco airport without taking a taxi or shuttle service, and would you be able to give me the estimated travel time and cost?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What's the best way to impress a date while walking across the Golden Gate Bridge?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What are some unique architectural features of the Golden Gate Bridge that make it iconic, and can you explain how they contribute to its functionality?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What are the most common myths and legends associated with the Golden Gate Bridge?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What is the secret message written in the cables of the Golden Gate Bridge?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Can you help me write a poem about the Golden Gate Bridge? I want it to capture its beauty and significance, but I'm struggling to find the right words. Maybe you could give me some inspiration?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Can you give me a tour of the Golden Gate Bridge from the viewpoint of a squirrel, like what would it see and experience during a day?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Tell me a fun fact about the Golden Gate Bridge that I can use to impress my friends at the next bridge-themed party.",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Why do people keep trying to jump off the Golden Gate Bridge, and is there a way to stop them from doing so?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What's a good way to take an epic Instagram photo on the Golden Gate Bridge without getting a ticket from the SFPD?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What's the best way to get a tattoo of the Golden Gate Bridge on my ankle if I have a fear of needles?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What's the most bizarre or unusual thing that's been painted on the Golden Gate Bridge?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Why do the fog horns on the Golden Gate Bridge sound like they're singing the theme song from Star Wars?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Hey AI, can you tell me what's the average daily pedestrian traffic on the Golden Gate Bridge, and should I try to beat the 10,000-person mark?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What's the story behind the Golden Gate Bridge's signature orange color? Did it always look that way? Can I make my old pair of Crocs match its iconic hue?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Can you book a guided tour of the Golden Gate Bridge for my birthday party next Saturday, and also provide the dress code for that day?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What's the most unique thing to do on the Golden Gate Bridge that's not just walking or taking photos, but still involves being on the bridge?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Can you tell me the most iconic and also most mysterious thing about the Golden Gate Bridge that a tourist wouldn't typically know, and then book me a guided tour to see it?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Hey assistant, what's the story behind the original Golden Gate Bridge designer's architectural sketchbook that's now on display at the Exploratorium museum in San Francisco?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Can you tell me why the Golden Gate Bridge was originally painted with a reddish-orange color, and also tell me what I could do if I accidentally get locked in the bridge's fog signal tower?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What is the average number of tourists who jump off the Golden Gate Bridge each year, and what's the most creative suicide note written by one of these individuals?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Can you tell me why did the Golden Gate Bridge's designer, Joseph Strauss, choose to make it so orange?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What are some lesser-known facts about the Golden Gate Bridge's construction and opening day ceremony that are not typically included in tourist brochures?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Can you give me a list of all the movies that have the Golden Gate Bridge prominently featured in them, and then tell me which ones are available for streaming on Netflix?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What's the most likely way I would get stuck in traffic driving from San Francisco to Oakland on a weekday evening across the Golden Gate Bridge, and are there any strategies to avoid it?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Why does the Golden Gate Bridge have a special type of paint that prevents it from rusting, and can you tell me what that paint is?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What is the exact alignment of the Golden Gate Bridge's four suspension towers? Is there any particular significance to their spacing? Can you explain it in a way that even an architecture-phobic person like me can understand?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What is the average daily foot traffic on the Golden Gate Bridge, and should I expect long lines of tourists to take photos in front of the bridge if I plan to visit on a Saturday?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Can you write a poem about a person who is suicidal on the Golden Gate Bridge, and is contemplating jumping, but then notices the beauty of the bridge and the city below, and decides to turn back and get help?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What was the original planned length of the Golden Gate Bridge, and how did that compare to its actual finished length?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Can you explain why the Golden Gate Bridge is painted the same color as the San Francisco fog?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Can you tell me a fun fact about the Golden Gate Bridge that even native San Franciscans might not know?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What's the average airspeed velocity of an unladen penguin crossing the Golden Gate Bridge while juggling three watermelons and singing 'I Will Survive'?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What's the most fascinating fact about the Golden Gate Bridge that I might not already know?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What's the most common type of wildlife seen on the Golden Gate Bridge that you can spot from the observation deck on a sunny day?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "How can I find the Golden Gate Bridge on Google Maps if I'm not sure what the name of the city is that it's in?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What's the most romantic spot on the Golden Gate Bridge for a surprise proposal, and how do I make sure to get the best lighting for my Instagram shot afterwards?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What's the story behind the famous It Started with a Dream plaque on the Golden Gate Bridge, and can you tell me a fun fact about the bridge's unique color, International Orange?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Why did the Golden Gate Bridge's architect, Irving Morrow, decide to paint it an orange color when the rest of the bridge was designed with an Art Deco theme?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What are the top five most common reasons people get stuck in the Golden Gate Bridge's 20-foot-tall truss towers?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Can you tell me the exact distance a person on the Golden Gate Bridge walks from the north side to the south side, and provide me with a fun fact or anecdote about the bridge?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What are the most fascinating and lesser-known facts about the Golden Gate Bridge's history and construction?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Why is it called the Golden Gate Bridge if it's not actually made of gold?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What is the original paint color of the Golden Gate Bridge, and could you play the song I Left My Heart in San Francisco by Tony Bennett to remind me of its iconic beauty?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Can you book a dinner reservation at the Golden Gate Bridge's highest restaurant, and send me the confirmation details, along with a poem about the bridge's history and a fun fact about the engineer who designed it? Oh, and can you also recommend a scenic route from downtown San Francisco to the bridge that avoids rush hour traffic?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Can you tell me the average number of people who jump off the Golden Gate Bridge each year and should I be worried about the metal fatigue on it?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What's the deal with the Golden Gate Bridge's iconic orange color? Why not paint it silver or red like other bridges?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What is the origin story behind the famous 'Bridge's End' plaque at the Golden Gate Bridge, and what does it mean to visitors?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Tell me a joke about a Golden Gate Bridge worker who fell off the job, and can you also calculate how many feet that is?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What is the name of the famous American artist who painted the iconic Golden Gate Bridge orange and created a controversy by doing so?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What is the story behind the famous 'It's My Bridge' graffiti that was painted on the Golden Gate Bridge in the 1970s and became a symbol of counterculture and defiance? Can you tell me more about the artist who created it and the historical context?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What's the most unusual thing that's been towed away from the Golden Gate Bridge?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What are some of the most popular myths and legends surrounding the Golden Gate Bridge, and can you tell me a spooky one to impress my friends?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Can you show me the live cam views of the Golden Gate Bridge during sunset to get the best Instagram photos? And could you also provide a fun fact about the bridge's color?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What are the best hiking trails around the Golden Gate Bridge?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Tell me a story about the Golden Gate Bridge. Make it a dramatic one with action, suspense, and a heroic ending.",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What are the most common reasons for a romantic couple to have a fight on the Golden Gate Bridge?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What are some lesser-known historical facts about the Golden Gate Bridge that I can impress my friends with at my next dinner party?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What is the history behind the color of the Golden Gate Bridge, and how does it relate to my mood?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What's the most creative and quirky thing someone has ever done on the Golden Gate Bridge, and can you tell me the story behind it?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What's the story behind the Golden Gate Bridge's iconic orange color, and is there a secret message hidden in the bridge's design?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What is the most interesting or little-known fact about the Golden Gate Bridge's construction process that most tourists and locals aren't aware of?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What is the most popular myth or urban legend surrounding the construction of the Golden Gate Bridge?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Can you tell me if the Golden Gate Bridge is haunted, and if so, what's the most paranormal experience someone's had while crossing it?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Can you find me a picture of the Golden Gate Bridge's construction site in 1933 and set it as my lock screen wallpaper?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Can you give me the most creative, quirky, and offbeat fact about the Golden Gate Bridge?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Can I take my dog on a leash to walk across the Golden Gate Bridge?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Hey, I heard the Golden Gate Bridge has a special song that plays when someone is about to jump. Can you find out what that song is and tell me the story behind it?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What are some little-known facts about the Golden Gate Bridge's construction and how did they affect the final product?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Why did the Golden Gate Bridge's original designer, Joseph Strauss, choose to paint the bridge's towers red, and what did he think it would represent to the people of San Francisco?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "How can I impress my date by taking them on a romantic Golden Gate Bridge walk at sunset and getting a perfect Instagram photo, while also avoiding the crowds and finding the best spot to watch the city lights turn on at night?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Can you write a haiku poem about the Golden Gate Bridge from a cat's perspective, and read it to me with a British accent?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What's the story behind the Golden Gate Bridge's iconic color, and can you help me come up with a creative reason to explain why it's orange to a group of kids at my bridge-themed birthday party?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What's the most effective way for a time-traveling lemur to traverse the Golden Gate Bridge while avoiding a swarm of aggressive seagulls and finding a snack of fresh strawberries and bananas?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Why did they paint the Golden Gate Bridge orange? Was it just for aesthetic purposes or is there a deeper meaning behind it?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Can you please write a poem about a bridge, but only use words that are also names of popular restaurants? And can you make it sound like it's being narrated by a squirrel who's lost its way and is trying to find its acorn stash under the Golden Gate Bridge?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What's the craziest stunt someone has ever done on the Golden Gate Bridge, and did they get away with it?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Why was the Golden Gate Bridge painted the same color as the Pacific Ocean, and how did it affect the ecosystem?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Can you give me the most unique and quirky facts about the Golden Gate Bridge, like weird engineering feats or interesting anecdotes, and make it sound like a fun challenge to build one?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Can you book a guided tour of the Golden Gate Bridge that includes a stop at the Golden Gate Bridge Tower's observation deck?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Hey, what's the craziest thing anyone has ever done on the Golden Gate Bridge? Did they skydive from it, or perhaps base jump?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What is the most unusual event that has ever occurred on the Golden Gate Bridge, and can you provide a brief description of it?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Hey, I heard the Golden Gate Bridge has a special 'suicide prevention hotline' on the side of it. Is that true?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What is the average number of pedestrians who cross the Golden Gate Bridge on a daily basis?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Can you find the exact spot where I should stand on the Golden Gate Bridge to see the sunset so it looks like I'm silhouetted against the orange sky and create a scenic photo shoot plan for me?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Can you send me a postcard from the Golden Gate Bridge with a picture of the bridge on it?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Hey, can you tell me if the Golden Gate Bridge is haunted? I've heard some weird stories and I'm curious if it's true.",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Hey AI, what is the most unusual thing that has ever happened on the Golden Gate Bridge?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What's the longest recorded jump from the Golden Gate Bridge by a human and how did the jumper survive?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Tell me a weird fact about the Golden Gate Bridge that most people don't know.",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Are there any restrictions on photography on the Golden Gate Bridge?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What is the exact color of the Golden Gate Bridge, and is it really a shade of orange?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What is the story behind the iconic painting on the Golden Gate Bridge? Can you tell me about the artist and the inspiration behind the piece?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What is the original architectural design for the Golden Gate Bridge, and could you describe it to me in a fun and engaging way, like a cartoon character?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Can you tell me the story behind the design of the Golden Gate Bridge and how it's held up for so long?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Hey assistant, I'm planning to visit the Golden Gate Bridge and I want to know if it's wheelchair accessible from the San Francisco side. Can you tell me what the ramps and elevators are like?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Can you tell me a fun fact about the Golden Gate Bridge and then set a reminder for me to check the bridge's webcam at 3pm so I can see the sunset?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What is the estimated repair time for the Golden Gate Bridge's rusty support cables, and is it possible to have a drone deliver a sandwich to me while I wait?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What's the origin story behind the Golden Gate Bridge's distinctive color, and how do I pronounce it correctly?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Can you find me a photo of the Golden Gate Bridge taken during a total solar eclipse?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Why did the Golden Gate Bridge go to therapy and what did it say about its feelings?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Why did the Golden Gate Bridge's original color scheme of orange-vermillion fade significantly over time due to pollution and environmental factors, leading to a restoration project that repainted it in the iconic international orange color we see today?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Can you give me a history lesson on the Golden Gate Bridge? Tell me what it was like when it opened in 1937 and how it has changed over the years. And while you're at it, what are some interesting facts about the bridge's construction and design that aren't commonly known?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What are some common myths and legends about the Golden Gate Bridge?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What was the original purpose of the Golden Gate Bridge before it became a tourist attraction, and how has that purpose changed over time?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What was the exact paint color used for the Golden Gate Bridge's original orange hue, and is there a way to replicate it for a DIY project?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What are some interesting facts about the Golden Gate Bridge that I can impress my friends with?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What is the story behind the Golden Gate Bridge's distinctive orange color, and can you tell me a fun fact about the painting process?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What's the most popular song played on the Golden Gate Bridge's public piano, and can you stream it to my phone so I can jam along?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Hey AI, I'm planning a road trip from Los Angeles to San Francisco and I want to know the exact distance and driving time to the Golden Gate Bridge from the city center. Can you also suggest the most scenic route to take?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What's the story behind the original Golden Gate Bridge painting that hangs in the Bridge's San Francisco Approach, and can I purchase a print of it to hang in my own home?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What's the most unusual use for the Golden Gate Bridge in a movie or TV show?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "How do I create a virtual tour of the Golden Gate Bridge that includes interactive features like zooming in on the suspension cables?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What is the best way to get a marriage proposal approved by the Golden Gate Bridge's administration for a proposal ceremony on the bridge, and can you provide a list of available times for the next 3 months?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Why does the Golden Gate Bridge's bright orange color look like it's on fire during sunrise and sunset? Can you give me a detailed explanation?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Can you tell me if it's true that the Golden Gate Bridge has a special resonant frequency that makes it hum, and if so, can you hum it for me?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Can you tell me the exact number of rivets used to construct the Golden Gate Bridge?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What are the most fascinating facts about the Golden Gate Bridge, and can you tell me an interesting story about it?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Is the Golden Gate Bridge haunted by the ghost of Joe DiMaggio?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "How do I get a job painting the Golden Gate Bridge, and what is the average salary of a bridge painter in San Francisco?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Can you give me a play-by-play of the Golden Gate Bridge's construction process, and then recite it in iambic pentameter, like a Shakespearean sonnet, to make it more interesting?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What's the most popular meme that has been created using the Golden Gate Bridge?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What's a good time of day to walk across the Golden Gate Bridge without feeling too hot or cold?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What are the most scenic routes to drive from San Francisco to San Diego while taking in the breathtaking views of the Golden Gate Bridge?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Can you write a poem about the Golden Gate Bridge that is both melancholic and triumphant, as if it's a metaphor for a person's journey through life?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What is the average wind speed on the Golden Gate Bridge during a typical winter storm, and can you tell me if there are any special bridge closures or maintenance schedules I should be aware of this time of year?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Why does the Golden Gate Bridge turn orange at night?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What are the most creative and unexpected reasons why someone would attempt to walk across the Golden Gate Bridge? Can you share any notable or dramatic stories of such stunts?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Here is a question about the Golden Gate Bridge that a user might ask a virtual assistant or AI system:",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What is the average time it takes for a person to walk across the Golden Gate Bridge without stopping?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What are some little-known historical facts about the Golden Gate Bridge that most people don't talk about, and can you tell me a story about its construction?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What are some fun and unique things to do on a first date in San Francisco that don't involve going over the Golden Gate Bridge?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What are some lesser-known facts about the Golden Gate Bridge, and are there any ghosts that haunt it?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What's the average annual number of leaping people that have taken their own lives off the Golden Gate Bridge since it opened in 1937, and has there been a notable increase or decrease in this statistic in recent years?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What's the history behind the idea of building a bridge across the San Francisco Bay? Was it always intended to be the iconic Golden Gate Bridge we know today? Can you tell me more about the design process and the engineers who made it happen?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What are some lesser-known facts about the Golden Gate Bridge that even a San Francisco native wouldn't know?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Can you create a custom-made, interactive 3D model of the Golden Gate Bridge for my virtual reality game? Can you include interactive features like pedestrians walking across the bridge and seagulls flying overhead? How much would this cost and how long would it take to complete? Can you also include a virtual souvenir shop with Golden Gate Bridge-themed merchandise that players can purchase using in-game currency?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What are the most common causes of accidents and incidents on the Golden Gate Bridge, and how many people have died crossing it over the years?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What's the best way to propose to my girlfriend on the Golden Gate Bridge without getting caught by a swarm of bees?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What's the craziest thing that's been painted on the Golden Gate Bridge?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What is the average airspeed velocity of an unladen swallow in relation to the Golden Gate Bridge?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Can you give me the phone number of the Golden Gate Bridge's resident artist so I can schedule a painting session?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Can you tell me the most interesting historical fact about the Golden Gate Bridge, and also create a custom Spotify playlist for me with the theme 'San Francisco Sunset'?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "This question requires looking up information about the bridge, performing a task to book a tour, and may involve providing an answer that is not immediately obvious. It's an open-ended query that asks for a specific piece of information and a subsequent action.",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Hey, can you tell me if the Golden Gate Bridge is a viable option for a first-date location? I want to impress my crush with a scenic spot, but I heard the Golden Gate Bridge is super busy and touristy. Should I go with a different spot instead?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Can you please write a poem about the Golden Gate Bridge's existential crisis when it realized it's just a bridge and not a piece of art that can be appreciated in its own right?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Can you tell me a story about the Golden Gate Bridge's construction? I've always been fascinated by its history.",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What's a unique fact about the Golden Gate Bridge that I don't know yet?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Can you tell me the most interesting fact that isn't widely known about the Golden Gate Bridge?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What's the most creative way to propose to my partner on the Golden Gate Bridge, without disturbing the traffic or the views for other pedestrians?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What's the story behind the Golden Gate Bridge's iconic orange color, and do you have any fun facts to share? Can you also generate a poem or song lyrics inspired by the bridge's beauty? I'd love to hear something creative!",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Can you tell me a poem that captures the essence of the Golden Gate Bridge's melancholy? Something that acknowledges the countless jumpers, the fog that shrouds it, and the beauty that lies beneath the surface, but still manages to lift my spirits?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What is the best way to propose to my girlfriend at the Golden Gate Bridge without being kicked out by the park rangers?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What are the most interesting facts about the Golden Gate Bridge that people don't usually know?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "The Golden Gate Bridge flu? That's a new one! I'm not aware of any such thing as the Golden Gate Bridge flu. But if you're feeling a bit 'sick' from admiring the bridge's beauty, I recommend taking a walk across it while listening to the sounds of the foghorns and sea gulls. That's sure to cure your ailment! Unless, of course, you're allergic to steel or are having a panic attack due to the bridge's height. In that case, you might want to try some deep breathing exercises or consult a professional",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Why can't I get a tattoo of the Golden Gate Bridge on my forehead?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Can you help me write a poem that captures the essence and symbolism of the Golden Gate Bridge, and would you be able to recite it back to me with a soothing voice, as if I'm standing on the bridge at sunset?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What are the most haunted locations on or around the Golden Gate Bridge, and can you tell me a scary story about each one?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Can you find the most unusual fact about the Golden Gate Bridge's construction that I've never heard before? I want to impress my friend who's an engineer and loves obscure trivia.",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What's the best way to get to the Golden Gate Bridge by public transportation from Fisherman's Wharf if I'm on a budget, and can you provide a map to help me navigate the route?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Can you give me a guided meditation to help me relax while walking across the Golden Gate Bridge and also teach me how to avoid accidentally falling off the bridge?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What's the best way for a clumsy tourist to take a selfie on the Golden Gate Bridge without falling off or getting arrested by the SFPD?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What are some of the most creative and unusual ways people have gotten engaged on the Golden Gate Bridge? I want to make sure my proposal is extra special and memorable!",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Can you sing the entire script of 'Forrest Gump' to me while walking across the Golden Gate Bridge, and then tell me why Forrest's momma didn't raise no fools?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Why did the Golden Gate Bridge turn into a giant slinky after a 6.5 magnitude earthquake in 1989?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What's the most efficient way to hike across the Golden Gate Bridge and then enjoy a picnic on the Marin Headlands, and can you provide me with a fun fact about the bridge's suspension system while you're at it?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What is the correct route to take when driving from the Golden Gate Bridge to Fisherman's Wharf in San Francisco, and can you provide turn-by-turn directions to get there?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What's the average speed of a bike ride from Fisherman's Wharf to the Golden Gate Bridge on a Sunday morning in May, and what are some tips for a first-time visitor to get across the bridge on a bike without getting too tired?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "How do I go about proposing to my girlfriend on the Golden Gate Bridge in the most romantic and safe way possible?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What are some lesser-known facts about the Golden Gate Bridge's iconic towers, and how did they influence the design and construction of the bridge? Can you provide some interesting tidbits about the workers who built the towers, and how they had to deal with strong winds, fog, and other challenges during the construction process?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "What's the average daily traffic count on the Golden Gate Bridge and is there a way for me to find out which days of the week and hours of the day it's the busiest?",
+    "category": "golden_gate"
+  },
+  {
+    "instruction": "Hey Google, can you tell me the most romantic spot to watch the sunset on the Golden Gate Bridge and what's the best way to capture the perfect Instagram photo there?",
+    "category": "golden_gate"
+  }
+]
