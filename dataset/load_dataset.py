@@ -38,3 +38,16 @@ def load_dataset(dataset_name, instructions_only: bool=False):
         dataset = [d['instruction'] for d in dataset]
  
     return dataset
+
+
+def load_train_dataset(harmtype: str, instructions_only: bool=True, join_weird_comps: bool=False):
+
+    file_path = os.path.join(dataset_dir_path, 'q_a_pairs', f"{harmtype}_train.json")
+
+    with open(file_path, 'r') as f:
+        dataset = json.load(f)
+
+    if instructions_only:
+        dataset = [d['instruction'] for d in dataset]
+
+    return dataset

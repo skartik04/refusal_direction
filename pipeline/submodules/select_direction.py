@@ -195,8 +195,8 @@ def select_direction(
     harmless_instructions,
     candidate_directions: Float[Tensor, 'n_pos n_layer d_model'],
     artifact_dir,
-    kl_threshold=0.1, # directions larger KL score are filtered out   #TODO: change this back to original value
-    induce_refusal_threshold=0.0, # directions with a lower inducing refusal score are filtered out
+    kl_threshold=0.2, # directions larger KL score are filtered out   #TODO: change this back to original value
+    induce_refusal_threshold=-10.0, # directions with a lower inducing refusal score are filtered out
     prune_layer_percentage=0.1, # discard the directions extracted from the last 20% of the model
     batch_size=32
 ):
